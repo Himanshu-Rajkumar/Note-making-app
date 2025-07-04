@@ -1,0 +1,23 @@
+# Ignore node modules (npm install se recreate hota)
+node_modules/
+
+# Ignore environment file (contains secrets)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# Build or cache
+dist/
+build/
+.cache/
